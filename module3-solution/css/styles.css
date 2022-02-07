@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Rowdies", sans-serif;
     color: rgb(75, 53, 24);
     font-size: 24px;
     background-color: #f8e5b8;
@@ -16,10 +16,15 @@ body{
     border: 0;
 }
 
+button.navbar-toggle{
+    margin-top: 20px;
+}
+
 #brand-name {
-    font-size: 2em;
+    font-size: 2.5em;
     color: black;
-    padding-left: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
 }
 
 #nav-list{
@@ -28,14 +33,26 @@ body{
 
 .sub-heading{
     font-size: 1.5em;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 .about-category{
     background-color: #faa88a;
 }
 
+
 h3{
     margin-bottom: 20px;
     font-size: 1.3em;
+}
+
+div.container-fluid{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px){
+    .extra-xs-padding{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
